@@ -1,0 +1,19 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# Netlify 本地缓存 / 站点关联信息（含 site ID，无需提交）
+.netlify/
+
+# 环境变量与密钥（百度密钥只在 Netlify 后台配置，绝不入库）
+.env
+.env.*
+!.env.example
+
+# 系统与编辑器杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
